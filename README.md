@@ -1,0 +1,8 @@
+CONSEGNA
+Il computer deve generare 16 numeri casuali nello stesso range della difficoltà prescelta: le bombe. Questo vuol dire che il range in cui generare il numero casuale sarà lo stesso della dimensione della griglia.
+In seguito l'utente clicca su una cella: se il numero è presente nella lista dei numeri generati - abbiamo calpestato una bomba - la cella si colora di rosso e la partita termina. Altrimenti la cella cliccata si colora di azzurro e l'utente può continuare a cliccare sulle altre celle.
+Man mano che l'utente clicca sulle celle bisognerà tenere traccia del punteggio, cioè del numero di celle senza bomba su cui ha cliccato. Potete visualizzarlo in console o ancor meglio in pagina.
+
+BONUS
+Nel generare i numeri casuali delle bombe fate in modo da non avere "doppioni". Non possiamo avere due numeri uguali. In caso di dubbi in merito ho accennato il discorso nell'ultimo spezzone del video o potete aprire un ticket. Vi consiglio di ragionarci dopo aver completato il resto dell'esercizio.
+Oltre a far terminare la partita al click su di una bomba, fate terminare la partita anche quando l'utente ha rivelato tutte le celle che non sono bombe. Questo bonus richiede che abbiate già svolto il precedente. Come mai? Pensate a come calcolare il numero di celle "non-bomba" :occhiolino: Potete provarci anche senza il bonus precedente, ma nel caso vengano generati doppioni allora non funzionerà correttamente.
